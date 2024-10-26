@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.task-first {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.imgs--task-first {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgs--task-first>* {
+    width: 100%;
+}
